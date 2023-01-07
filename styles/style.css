@@ -1,0 +1,174 @@
+* {
+  margin: auto;
+  font-family: "Work Sans", sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.gap {
+    margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.btn-primary {
+  background-color: #f15b22 ;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  padding: 20px 25px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-secondary {
+    background-color:  #fff;
+  font-weight: 600;
+  font-size: 20px;
+  color: #f15b22;
+  padding: 20px 25px;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  
+}
+
+/* Header style */
+header {
+  display: flex;
+  background-image: url(../assets/banner/banner1.png);
+  height: 100vh;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+/* Banner styles */
+.banner {
+  position: absolute;
+  right: 0;
+  text-align: end;
+  max-width: 525px;
+  margin-right: 230px;
+}
+
+.banner-title {
+  font-family: Work Sans;
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+/* Previous Year Section */
+
+.previous-year {
+ margin-top: 130px;
+  display: flex;
+
+  justify-items: center;
+  flex-direction: row;
+}
+
+.previous-year-section {
+  max-width: 416px;
+  margin-left: -100px;
+}
+
+.previous-year-image {
+  width: 569px;
+}
+
+ul {
+  list-style-image: url("../assets/icons/checked.png");
+}
+
+li {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-left: -10px;
+}
+
+/* My Plan */
+
+.my-plan{
+    margin-top: 130px;
+}
+
+.skills {
+    display: flex;
+    margin: 50px 230px;
+}
+
+.skill-cards {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    align-content: center;
+}
+
+.call-to-action {
+    margin: auto;
+    width: 1140px;
+    height: 300px;
+   
+    background-image: url(../assets/watch.png), url(../assets/gradient3.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-blend-mode:overlay;
+    margin-bottom: 130px;
+  
+}
+
+
+.call-to-action-title{
+    color:#fff;
+    padding-top: 60px;
+    padding-left: 65px;
+    margin-bottom: 24px;
+}
+
+footer {
+    height: 577px;
+    background-color: #000;
+    display: flex;
+}
+.social-icons {
+    margin-top: 32px;
+}
+
+.social-icon{
+
+ padding-right: 10px;
+}
+
+.input-field {
+    margin-top:31px;
+    padding: 20px;
+    width: 325px;
+    font-size: 18px; 
+    font-weight: 400;
+    border: #fff solid 1px;
+    border-radius: 5px;
+    color: #F3F3F3;
+    background-color: #000;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.input-field::placeholder {
+    color: white;
+}
+
+
